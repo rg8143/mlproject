@@ -13,7 +13,7 @@ This is a demo project setup where following steps were followed in creating a e
     - artifacts : the ingestion and transformation function will be saving the transformed version of the data in this folder for further analysis
 7. useful git commands - 
     - git init [it will initialize the git in the current folder]
-    - git add . [it will add all the untracked file to git]
+    - git add . [it will add all the untracked file/ untracked file changes to git]
     - git commit -m 'your commit message here' [it will commit the changes locally with the given message]
     - git status [it will let you know the sync status between local branch vs github branch e.g. how many commits are required to sync them, which files are not tracked etc.]
     - git branch -M main [enters you in the main branch]
