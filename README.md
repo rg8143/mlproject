@@ -27,4 +27,10 @@ This is a demo project setup where following steps were followed in creating a e
     - create app.py which controls the flask web app
     - create template folder which will contain all the html pages for the web app
     - app.py will be routing to different pages from template folder itself
+
+10. Deployment to AWS - 
+    - Elastic Beanstalk AWS service will be used to host the web app
+    - we need to create .ebextentions folder in the project with config files
+    - In order to host the web app here we need to rename our app.py to application.py
+    - codepipeline aws service will be used for continuous deployment (CD), it integrates with the github repository and if there is any changes on the github repository it will automatically ask whether to deploy those changes on the server (Elastic beanstalk here)
     
