@@ -22,4 +22,9 @@ This is a demo project setup where following steps were followed in creating a e
 8. useful CMD commands - 
     - python -m venv venv [it will create a virtual environment "venv"]
     - "venv/Scripts/activate" [it activates the virtual environment, here "venv" is the python virtual environment]
+
+9. Process to setup Flask app - 
+    - create app.py which controls the flask web app
+    - create template folder which will contain all the html pages for the web app
+    - app.py will be routing to different pages from template folder itself
     
