@@ -32,5 +32,7 @@ This is a demo project setup where following steps were followed in creating a e
     - Elastic Beanstalk AWS service will be used to host the web app
     - we need to create .ebextentions folder in the project with config files
     - In order to host the web app here we need to rename our app.py to application.py
-    - codepipeline aws service will be used for continuous deployment (CD), it integrates with the github repository and if there is any changes on the github repository it will automatically ask whether to deploy those changes on the server (Elastic beanstalk here)
+    - codepipeline aws service will be used for continuous deployment (CD), it integrates with the github repository and if there is any changes on the github repository it will automatically ask whether to deploy those changes on the server (Elastic beanstalk here) 
+
+11. For some reason, AWS Beanstalk was not working when we click on submit button on "/predictdata" page, To resolve this we need to remove the deployment through github and instead upload the zip file and then try deploying the application it worked fine and the model was also able to do the predictions.
     
